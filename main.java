@@ -25,10 +25,13 @@ public class Main {
 
 class Coche{
 	
-	public int puertas=0;
+	public int puertas;
+	
+	public Coche () {
+		puertas = 2;
+	}
 	
 	public void agregarPuertas(int puertas) {
 		this.puertas+=puertas;
 	}
-	
 }
